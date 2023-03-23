@@ -58,6 +58,12 @@ p {
 	font-size: 0.85rem;
 }
 
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .calories-info h1 {
 	margin: -5px -2px;
 	overflow: hidden;
@@ -66,6 +72,14 @@ p {
 .calories-info span {
 	font-size: 1.2em;
 	margin-top: -7px;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.calories-info h2 {
+  margin: 0;
 }
 
 .indent {
